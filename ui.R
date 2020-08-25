@@ -1,12 +1,3 @@
-library(tidyverse)
-library(scales)
-library(ggthemes)
-library(shiny)
-library(shinyWidgets)
-library(RColorBrewer)
-library(png)
-library(gridExtra)
-library(grid)
 data<-read.csv("FiscalGapScenarios.csv")
 
 ui<-fluidPage(
